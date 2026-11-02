@@ -12,6 +12,8 @@ MVP
   discard pile reshuffles into deck when deck runs out
   game ends after X turns or when main deck runs out
   score = total VP in your deck
+
+  
 future plans (v2+)
   supervillains / boss fights
   kick pile
@@ -19,12 +21,16 @@ future plans (v2+)
   2 player hot seat
   basic AI opponent
   save/load
+
+  
 tech stack
   C++17
   just the standard library (vector, random, algorithm, fstream, iostream)
   g++ + makefile
   card data stored in a csv file (data/cards.csv), game state is just in memory
   git + github
+
+  
 folders
   src/ - code
   include/ - headers
